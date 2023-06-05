@@ -154,6 +154,11 @@ header .tablet {
 }
 
 @media only screen and (max-width: 760px) {
+  *{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
   header .desktop {
     display: none;
   }
@@ -165,7 +170,6 @@ header .tablet {
   header .mobile {
     display: block;
     width: 100%;
-    max-width: 350px;
   }
 
   header .content {
@@ -176,7 +180,6 @@ header .tablet {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
   }
 
   header .mobile li {
@@ -188,6 +191,10 @@ header .tablet {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+  }
+  
+  body {
+    overflow-x: hidden;
   }
 }
 
