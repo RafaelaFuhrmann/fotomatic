@@ -165,6 +165,7 @@ header .tablet {
   header .mobile {
     display: block;
     width: 100%;
+    max-width: 350px;
   }
 
   header .content {
